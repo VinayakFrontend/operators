@@ -1,0 +1,84 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            padding:10px;
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+        <button onclick=' alert("addition of " + no1 + " + "  + no2+ " = " + add);'>Addition</button>
+        <button onclick=' alert("subtraction of " + no1 + " - "  + no2+ " = " + sub);'>Subtraction</button>
+        <button onclick=' alert("multiplication of " + no1 + " * "  + no2+ " = " + mul);'>Muliplication</button>
+        <button onclick=' alert("division of " + no1 + " / "  + no2+ " = " + div);'>Division</button>
+        <button onclick=' alert("remender of " + no1 + " % "  + no2+ " = " + remender);'>Remender</button>
+        <button onclick=' alert("power of " + no1 + " ** "  + no2+ " = " + power);'>Power</button>
+    
+    </div>
+
+   
+    <div>
+        <button onclick='alert("check value is same " + no1 + " == "  + no2+ " = " +valueEqual)'>valueEqual</button> 
+        <button onclick='alert("check value and datatype is same " + no1 + " ===  "  + no2+ " = " +dataEqual )'>dataEqual</button>
+        <button onclick='alert("check value is not equal " + no1 + " !== "  + no2+ " = " +notValueEqual)'>notValueEqual</button>
+        <button onclick='alert("check value is Greater than " + no1 + " > "  + no2+ " = " +greater)'>greater</button>
+        <button onclick='alert("check value is Lesser than " + no1 + " < "  + no2+ " = " +lesser)'>lesser</button> 
+        <button onclick='alert("check value is greater than and equal " + no1 + " >= "  + no2+ " = " +greaterEqual)'>greaterEqual</button> 
+        <button onclick='alert("check value is Lesser than and equal " + no1 + " <= "  + no2+ " = "+lessEqual)'>lessEqual</button> 
+    </div>
+   
+
+
+
+
+    <script>
+
+        let no1 = parseFloat(prompt("Enter First Number"));
+        let no2 = parseFloat(prompt("Enter Second Number"));
+
+        let add = no1 + no2 ;
+        let sub = no1 - no2;
+        let mul = no1 * no2;
+        let div = no1 / no2;
+        let remender = no1 % no2;
+        let power = no1 ** no2;
+
+        alert("addition of " + no1 + " + "  + no2+ " = " + add);
+        alert("subtraction of " + no1 + " - "  + no2+ " = " + sub);
+        alert("multiplication of " + no1 + " * "  + no2+ " = " + mul);
+        alert("division of " + no1 + " / "  + no2+ " = " + div);
+        alert("remender of " + no1 + " % "  + no2+ " = " + remender);
+        alert("power of " + no1 + " ** "  + no2+ " = " + power);
+        
+        
+        let valueEqual = no1 == no2 ;
+        let dataEqual = no1 === no2;
+        let notValueEqual = no1 !== no2;
+        let greater = no1 > no2;
+        let lesser = no1 < no2;
+        let greaterEqual = no1 <= no2 ;
+        let lessEqual = no1 >= no2;
+
+        alert("check value is same " + no1 + " == "  + no2+ " = " +valueEqual)
+        alert("check value and datatype is same " + no1 + " ===  "  + no2+ " = " +dataEqual )
+        alert("check value is not equal " + no1 + " !== "  + no2+ " = " +notValueEqual)
+        alert("check value is Greater than " + no1 + " > "  + no2+ " = " +greater)
+        alert("check value is Lesser than " + no1 + " < "  + no2+ " = " +lesser)
+        alert("check value is greater than and equal " + no1 + " >= "  + no2+ " = " +greaterEqual)
+        alert("check value is Lesser than and equal " + no1 + " <= "  + no2+ " = "+lessEqual)
+
+
+        
+    </script>
+</body>
+</html>

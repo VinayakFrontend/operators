@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+
+        div{
+            background-color: yellowgreen;
+            text-align: center;
+            width:100%;
+        }
+
+       table,th,td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+
+       }
+
+       th,td{
+        padding:5px 10px;
+       }
+    </style>
+</head>
+<body>
+
+    <div><h1>Types Of Operators</h1></div>
+
+    <!-- Arithmatic Operators -->
+
+    <h1>1] Arithmatic Operators</h1>
+    <table>
+        <tr>
+            <th>Operator</th>
+            <th>Description</th>
+            <th>Example</th>
+            <th>Result</th>
+        </tr>
+        <tr>
+            <td>+</td>
+            <td>Addition</td>
+            <td id="add"></td>
+            <td id="addre"></td>
+        </tr>
+        <tr>
+            <td>-</td>
+            <td>Subtraction</td>
+            <td id="sub"></td>
+            <td id="subre"></td>
+        </tr>
+        <tr>
+            <td>*</td>
+            <td>Multiplication</td>
+            <td id="mul"></td>
+            <td id="mulre"></td>
+        </tr>
+        <tr>
+            <td>/</td>
+            <td>Division</td>
+            <td id="div"></td>
+            <td id="divre"></td>
+        </tr>
+        <tr>
+            <td>%</td>
+            <td>Modulus (Remainder)</td>
+            <td id="rem"></td>
+            <td id="remre"></td>
+        </tr>
+        <tr>
+            <td>**</td>
+            <td>Exponentiation (Power)</td>
+            <td id="pow"></td>
+            <td id="powre"></td>
+        </tr>
+    </table>
+
+<!-- Assignment Operators -->
+        <h1>2] Assignment Operators</h1>
+        <table>
+            <tr>
+                <th>Operator</th>
+                <th>Description</th>
+                <th>Example</th>
+                <th>Equivalent To</th>
+                <th>Result</th>
+            </tr>
+            <tr>
+                <td>=</td>
+                <td>Assigns a value to variable</td>
+                <td id="asign"></td>
+                <td id="asigne"></td>
+                <td id="asignre"></td>
+            </tr>
+            <tr>
+                <td>+=</td>
+                <td>Adds and assigns the result</td>
+                <td id="adds"></td>
+                <td id="addse"></td>
+                <td id="addsre"></td>
+            </tr>
+            <tr>
+                <td>-=</td>
+                <td>Subtracts and assigns the result</td>
+                <td id="subs"></td>
+                <td id="subse"></td>
+                <td id="subsre"></td>
+            </tr>
+            <tr>
+                <td>*=</td>
+                <td>Multiplies and assigns the result</td>
+                <td id="muls"></td>
+                <td id="mulse"></td>
+                <td id="mulsre"></td>
+            </tr>
+            <tr>
+                <td>/=</td>
+                <td>Divides and assigns the result</td>
+                <td id="divs"></td>
+                <td id="divse"></td>
+                <td id="divsre"></td>
+            </tr>
+            <tr>
+                <td>%=</td>
+                <td>Assigns the remainder of division</td>
+                <td id="rems"></td>
+                <td id="remse"></td>
+                <td id="remsre"></td>
+            </tr>
+
+            <tr>
+                <td>**=</td>
+                <td>Assigns the result of exponentiation</td>
+                <td id="pows"></td>
+                <td id="powse"></td>
+                <td id="powsre"></td>
+            </tr>
+
+    </table>
+
+    <h1>3] Comparison Operators</h1>
+    <table>
+        <tr>
+            <th>Operator</th>
+            <th>Description</th>
+            <th>Example</th>
+            <th>Result</th>
+        </tr>
+        <tr>
+            <td>==</td>
+            <td>Equal to (allows type conversion)</td>
+            <td id="equal"></td>
+            <td id="equalre"></td>
+        </tr>
+        <tr>
+            <td>===</td>
+            <td>Strict equal to (no type conversion)</td>
+            <td id="sequal"></td>
+            <td id="sequalre"></td>
+        </tr>
+        <tr>
+            <td>!=</td>
+            <td>Not equal to (allows type conversion)</td>
+            <td id="noteq"></td>
+            <td id="noteqre"></td>
+        </tr>
+        <tr>
+            <td>!==</td>
+            <td>Strict not equal to (no type conversion)</td>
+            <td id="snote"></td>
+            <td id="snotere"></td>
+        </tr>
+        <tr>
+            <td>></td>
+            <td>Greater than</td>
+            <td id="gt"></td>
+            <td id="gtre"></td>
+        </tr>
+        <tr>
+            <td> < </td>
+            <td>Less than</td>
+            <td id="lt"></td>
+            <td id="ltre"></td>
+        </tr>
+        <tr>
+            <td> >= </td>
+            <td>Greater than or equal to</td>
+            <td id="gte"></td>
+            <td id="gtere"></td>
+        </tr>
+        <tr>
+            <td> <= </td>
+            <td>Less than or equal to</td>
+            <td id="lte"></td>
+            <td id="ltere"></td>
+        </tr>
+    </table>
+
+    <h1>4] Logical Operators</h1>
+    <table>
+        <tr>
+            <th>Operator</th>
+            <th>Description</th>
+            <th>Example</th>
+            <th>Result</th>
+        </tr>
+        <tr>
+            <td>&&</td>
+            <td>Logical AND (returns true if both operands are true)</td>
+            <td id="and"></td>
+            <td id="andre"></td>
+        </tr>
+        <tr>
+            <td>||</td>
+            <td>Logical OR (returns true if at least one operand is true)</td>
+            <td id="or"></td>
+            <td id="orre"></td>
+        </tr>
+        <tr>
+            <td>!</td>
+            <td>Logical NOT (inverts the Boolean value)</td>
+            <td id="not"></td>
+            <td id="notre"></td>
+        </tr>
+    </table>
+
+    <h1>5] Ternary Operator </h1>
+    <table>
+        <tr>
+            <th>Operator</th>
+            <th>Description</th>
+            <th>Example</th>
+            <th>Result</th>
+        </tr>
+        <tr>
+            <td>condition ? expression if True : expression if False;</td>
+            <td>The ternary operator in JavaScript is a concise way to perform conditional checks. It evaluates a condition and returns one of two values based on whether the condition is true or false. It's a shorthand for if-else statements and can make your code more compact and readable when used correctly.</td>
+            <td id="ter"></td>
+            <td id="terre"></td>
+        </tr>
+        </table>
+        <h1>6] Type Operator </h1>
+        <table>
+            <tr>
+                <th>Operator</th>
+                <th>Description</th>
+                <th>Example</th>
+                <th>Result</th>
+            </tr>
+            <tr>
+                <td>typeof</td>
+                <td>The typeof operator is used to check the type of a variable or expression. It returns a string representing the type of the operand.</td>
+                <td id="type"></td>
+                <td id="typere"></td>
+            </tr>
+
+            </table>
+
+            <h1>7] Unary Operators</h1>
+            <table>
+                <tr>
+                    <th>Operator</th>
+                    <th>Description</th>
+                    <th>Example</th>
+                    <th>Result</th>
+                </tr>
+                <tr>
+                    <td>++a</td>
+                    <td>Pre Increment</td>
+                    <td id="pre"></td>
+                    <td id="prere"></td>
+                </tr>
+                <tr>
+                    <td>a++</td>
+                    <td>Post Increment</td>
+                    <td id="post"></td>
+                    <td id="postre"></td>
+                </tr>
+                <tr>
+                    <td>--a</td>
+                    <td>Pre Decrement</td>
+                    <td id="pred"></td>
+                    <td id="predre"></td>
+                </tr>
+                <tr>
+                    <td>a--</td>
+                    <td>Post Decrement</td>
+                    <td id="postd"></td>
+                    <td id="postdre"></td>
+                </tr>
+                
+            </table>
+            <h1>8] Nullish Coalescing Operator</h1>
+            <table>
+                <tr>
+                    <th>Operator</th>
+                    <th>Description</th>
+                    <th>Example</th>
+                    <th>Result</th>
+                </tr>
+                <tr>
+                    <td>Nullish Coalescing Operator</td>
+                    <td> The nullish coalescing (??) operator is a logical operator that returns its right-hand side operand when its left-hand side operand is null .</td>
+                    <td id="nuco"></td>
+                    <td id="nucore"></td>
+                </tr>
+    
+                </table>
+    <script>
+
+     /*Arithmatic Operators*/
+
+        let a = parseFloat(prompt("Enter First Number:"));
+        let b = parseFloat(prompt("Enter Second Number:"));
+
+        
+
+        let add = a + b;
+        let sub = a - b;
+        let mul = a * b;
+        let div = a / b;
+        let rem = a % b;
+        let pow = a ** b;
+
+
+        document.getElementById("add").innerHTML= a +" + "+b;
+        document.getElementById("addre").innerHTML= add;
+       
+        document.getElementById("sub").innerHTML= a+" - "+b;
+        document.getElementById("subre").innerHTML=sub;
+
+        document.getElementById("mul").innerHTML= a +" * "+b;
+        document.getElementById("mulre").innerHTML= mul;
+
+        document.getElementById("div").innerHTML= a +" / "+b;
+        document.getElementById("divre").innerHTML= div;
+
+        document.getElementById("rem").innerHTML= a +" % "+b;
+        document.getElementById("remre").innerHTML= rem;
+
+        document.getElementById("pow").innerHTML= a +" ** "+b;
+        document.getElementById("powre").innerHTML= pow;
+
+     /*Assignment Operators*/
+
+        document.getElementById("asign").innerHTML= "a  = 5";
+        document.getElementById("asigne").innerHTML=  "a  = 5";
+        document.getElementById("asignre").innerHTML= "a = 5 ";
+
+        document.getElementById("adds").innerHTML= a +" += "+b;
+        document.getElementById("addse").innerHTML= a+ " = " +a+ " + " +b;
+        document.getElementById("addsre").innerHTML= a += b ;
+       
+        document.getElementById("subs").innerHTML= a+" -= "+b;
+        document.getElementById("subse").innerHTML= a+ " = " +a+ " - " +b;
+        document.getElementById("subsre").innerHTML= a -= b;
+
+        document.getElementById("muls").innerHTML= a +" *= "+b;
+        document.getElementById("mulse").innerHTML= a+ " = " +a+ " * " +b;
+        document.getElementById("mulsre").innerHTML= a *= b;
+
+        document.getElementById("divs").innerHTML= a +" /= "+b;
+        document.getElementById("divse").innerHTML= a+ " = " +a+ " / " +b;
+        document.getElementById("divsre").innerHTML=  a /= b;
+
+        document.getElementById("rems").innerHTML= a +" %= "+b;
+        document.getElementById("remse").innerHTML=a+ " = " +a+ " % " +b;
+        document.getElementById("remsre").innerHTML=  a %= b;
+
+        document.getElementById("pows").innerHTML= a +" **= "+b;
+        document.getElementById("powse").innerHTML= a+ " = " +a+ " ** " +b;
+        document.getElementById("powsre").innerHTML=  a ** b;
+    
+        /*Comparison operators*/
+
+        document.getElementById("equal").innerHTML= a +" == "+b;
+        document.getElementById("equalre").innerHTML= a==b;
+       
+        document.getElementById("sequal").innerHTML= a+" === "+b;
+        document.getElementById("sequalre").innerHTML=a===b;
+
+        document.getElementById("noteq").innerHTML= a +" != "+b;
+        document.getElementById("noteqre").innerHTML= a!=b;
+
+        document.getElementById("snote").innerHTML= a +" !== "+b;
+        document.getElementById("snotere").innerHTML= a!==b;
+
+        document.getElementById("gt").innerHTML= a +" > "+b;
+        document.getElementById("gtre").innerHTML= a>b;
+
+        document.getElementById("lt").innerHTML= a +" < "+b;
+        document.getElementById("ltre").innerHTML= a<b;
+
+        document.getElementById("gte").innerHTML= a +" >= "+b;
+        document.getElementById("gtere").innerHTML= a>=b;
+
+        document.getElementById("lte").innerHTML= a +" <= "+b;
+        document.getElementById("ltere").innerHTML= a<=b;
+
+       /* Logical* operator*/
+        
+       
+   
+        document.getElementById("and").innerHTML= (a>=b)+ " and " + (a<=b);
+        document.getElementById("andre").innerHTML= a>=b && a<=b;
+       
+        document.getElementById("or").innerHTML= (a>=b)+" || "+ (a<=b);
+        document.getElementById("orre").innerHTML= a>=b ||  a<=b;
+
+        document.getElementById("not").innerHTML= " ! "+ a>=b;
+        document.getElementById("notre").innerHTML= !(a>=b);
+    
+        /* Ternary Operator*/
+        document.getElementById("ter").innerHTML= '(age >= 18) ? "Yes " : "No "';
+        document.getElementById("terre").innerHTML=  (b >= 18) ? "Yes greater than 18" : "No less than 18";
+
+        /* Type Operator*/
+        document.getElementById("type").innerHTML= " typeof a = " +a+ " and b = " +b;
+        document.getElementById("typere").innerHTML= "a is =  "+typeof a+ " and b is = " +typeof b;
+
+       /* unary operator*/
+        document.getElementById("pre").innerHTML= '1 + ' +a;
+        document.getElementById("prere").innerHTML= ++a;
+    
+        document.getElementById("post").innerHTML= a+ " + 1";
+        document.getElementById("postre").innerHTML= a++;
+    
+        document.getElementById("pred").innerHTML= " 1 - "+ a;
+        document.getElementById("predre").innerHTML= --a;
+    
+        document.getElementById("postd").innerHTML= a+" - 1";
+        document.getElementById("postdre").innerHTML= a--;
+    
+        /* Nullish Coalescing Operator */
+
+        document.getElementById("nuco").innerHTML= 'a ?? "hi"';
+        document.getElementById("nucore").innerHTML= a ?? "hi";
+
+
+       
+    </script>
+</body>
+</html>
